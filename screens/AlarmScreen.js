@@ -6,12 +6,14 @@ import UserAlarmList from '../components/UserAlarmList';
 
 const AlarmScreen = props => {
 
-    const tempAlarmList = [{ time: 1122 }];
+    let tempAlarmList = [
+        { hour: 10, min: 30, pmAm: "pm" },
+        { hour: 11, min: 20, pmAm: "am"}];
 
     return (
         <View style={styles.screen}>
             <CurrentTime />
-            <UserAlarmList />
+            <UserAlarmList data={tempAlarmList}/>
         </View>
     );
 };
