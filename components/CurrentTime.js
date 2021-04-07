@@ -24,7 +24,7 @@ const CurrentTime = props => {
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
-        marginVertical: '10%',
+        marginTop: '10%',
         marginHorizontal: '5%',
         padding: '4%',
         borderWidth: 1,
